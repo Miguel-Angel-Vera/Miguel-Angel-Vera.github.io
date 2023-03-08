@@ -1,0 +1,111 @@
+body, section {
+    width: 1080px;
+    margin-left: auto;
+    margin-right: auto;
+}
+h1, h5, h2 {
+    text-align: center;
+}
+
+h2 {
+    text-decoration: underline;
+}
+
+nav {
+    
+    background:#f06156;
+    margin-top: 0.5%;
+    float: none;
+    width: 100%;
+    
+  }
+  nav ul {
+    list-style-type:none;
+    padding:0px;
+    width: 100%;
+    display: table;
+    text-align: center;
+  }
+  nav ul li {
+    display: inline;
+  }
+  nav ul li:hover {
+    background-color: #ccc;
+    text-decoration: underline;
+  }
+  nav ul li a {
+   display:inline-block;
+   text-align:center;
+   text-decoration:none;
+   color: #75302a;
+   font-weight: bold;
+    padding:6px 15px;
+    margin:2px;
+    background:#fafafa;
+    -moz-border-radius:3px;-webkit-border-radius:3px;-o-border-radius:3px;border-radius:3px;
+  }
+  
+
+p {
+    font-size: large;
+    text-align: justify;
+}
+#prueba {
+    display: block;
+}
+
+header {
+    height: 250px;
+    width: 1080px;
+    float: left;
+    background-color: goldenrod;
+}
+
+header img {
+    height: 195px;
+    float: left;
+}
+
+#perfil {
+    background-color: beige;
+    padding: 10px;
+    float: left;
+}
+#experiencia, #cursos_realizados ul li {
+    margin: 0 0 10px 0;
+}
+
+#educacion {
+    background-color: greenyellow;
+    float: left;
+}
+
+#experiencia {
+    background-color: goldenrod;
+    float: left;
+    margin-bottom: 0;
+}
+
+#otros {
+    background-color: beige;
+    float: left;
+    width: 100%;
+}
+
+#otros_conocimientos {
+    background-color: goldenrod;
+    float: left;
+    width: 100%;
+}
+
+#certificados {
+    display: flex;
+    display: none;
+}
+
+#certificados img {
+    float: left;
+    width: 50%;
+    height: 400px;
+}
+
